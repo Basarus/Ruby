@@ -93,7 +93,7 @@ puts x8
 # выведет 20
 
 
-text5 = 'It\`s my ten course. \nI like Ruby'.
+#text5 = 'It\`s my ten course. \nI like Ruby'.
 
 a10 = 5
 b10 = 2
@@ -111,3 +111,11 @@ puts a12*3
 
 puts '5'*4
 # выведет 5555
+
+puts "Enter your name"
+name1 = gets.chomp
+puts "Welcome, #{name}"
+
+a22 = 7
+b22 = a22/2
+puts b22 == (a22-4)
