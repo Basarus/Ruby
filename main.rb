@@ -63,3 +63,51 @@ a6 = 2
 b6 = 5
 puts a6**b6
 # возводим число 2 в 5-ую степень и получаем 32
+
+=begin
+x += y  # x=x+y
+x -= y  # x=x-y
+x *= y  # x=x*y
+x /= y  # x=x/y
+x %= y  # x=x%y
+x **= y  # x=x**y
+=end
+
+a7 = 8
+a7 /= 3
+puts a7
+
+=begin
+x = 10
+y = 20
+z = 30
+
+x, y, z = 10, 20, 30
+
+
+    a, b = b, a
+=end
+
+x8 = (3 + 2) * 4
+puts x8
+# выведет 20
+
+
+text5 = 'It\`s my ten course. \nI like Ruby'.
+
+a10 = 5
+b10 = 2
+puts "The sum is #{a10+b10}"
+# Выведет "The sum is 7"
+
+a11 = "Hi "
+b11 = 'there'
+puts a11+b11
+# выведет "Hi there" 
+
+a12 = "abc"
+puts a12*3
+# выведет "abcabcabc"
+
+puts '5'*4
+# выведет 5555
